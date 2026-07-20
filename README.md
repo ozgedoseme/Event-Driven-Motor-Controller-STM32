@@ -1,4 +1,4 @@
-# 🏎️ TEKNOFEST NovaDrive — EV Powertrain & Actuator Controller (2023-2024)
+# 🏎️ TEKNOFEST Autonomous Vehicle Competiton — EV Powertrain & Actuator Controller (2023-2024)
 
 This repository contains the microcontroller firmware developed for our **TEKNOFEST Autonomous Vehicle (NovaDrive) Student Team**. The core focus of this project was to handle dynamic motor velocity profiles, mechanical braking, and low-level safety states on an ARM Cortex-M based STM32 platform.
 
@@ -7,7 +7,7 @@ This repository contains the microcontroller firmware developed for our **TEKNOF
 ## Project Status & Current Scope
 
 > **Note on Completion Status:** 
-> This is an ongoing/milestone project from the competition. Due to timeline constraints, the In-Vehicle Communication (CAN-Bus) was currently incomplete/missing from this codebase. However, all core localized vehicle actuators and safety-critical state transitions have been tested, and optimized recently.
+> This is an ongoing/milestone project from the competition. Due to timeline constraints, the In-Vehicle Communication (CAN-Bus) was currently incomplete/missing from this codebase. However, all core localized vehicle actuators and safety-critical state transitions have been tested, and optimized recently (2026).
 
 ### What Actually Works:
 * **Analog DC Motor Propulsion:** Synthesizes analog control voltage via **DAC** to drive the main powertrain H-Bridge smoothly.
